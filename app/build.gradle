@@ -13,6 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -51,5 +52,6 @@ dependencies {
     implementation "org.jetbrains.anko:anko-design-coroutines:$anko_version"
     implementation "org.jetbrains.anko:anko-constraintlayout-layout:$anko_version"
     implementation "androidx.constraintlayout:constraintlayout:2.1.3"
+
 
 }

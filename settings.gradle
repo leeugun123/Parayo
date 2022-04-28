@@ -1,4 +1,6 @@
 pluginManagement {
+    ext.anko_version = '0.10.5'
+    ext.kotlin_version = '1.3.61'
     repositories {
         gradlePluginPortal()
         google()
@@ -6,6 +8,8 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
+    ext.anko_version = '0.10.5'
+    ext.kotlin_version = '1.3.61'
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
